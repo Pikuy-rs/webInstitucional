@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { LogoIcon } from './icons';
 
@@ -29,6 +28,7 @@ const Header: React.FC = () => {
                     <div className="hidden md:flex items-center space-x-8">
                         <a href="#mission" className="text-white hover:text-emerald-400 transition-colors duration-300 font-semibold tracking-wider">MISIÓN</a>
                         <a href="#game" className="text-white hover:text-emerald-400 transition-colors duration-300 font-semibold tracking-wider">EL JUEGO</a>
+                        <a href="#impacto" className="text-white hover:text-emerald-400 transition-colors duration-300 font-semibold tracking-wider">IMPACTO</a>
                         <a href="#team" className="text-white hover:text-emerald-400 transition-colors duration-300 font-semibold tracking-wider">EQUIPO</a>
                         <a href="#contact" className="text-white hover:text-emerald-400 transition-colors duration-300 font-semibold tracking-wider">CONTACTO</a>
                     </div>
