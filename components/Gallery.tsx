@@ -18,6 +18,8 @@ const galleryItems: GalleryItem[] = [
     { id: 4, type: 'image', src: 'https://advisoccer.com/wp-content/uploads/2023/10/faseddd.jpg', alt: 'Niño corriendo con la pelota en un campo de césped' },
     { id: 5, type: 'image', src: 'https://fefi.com.ar/wp-content/uploads/2014/10/principios-tecnicos-entrenamiento-futbol-infantil.png.webp', alt: 'Varios niños disputando la pelota en un entrenamiento' },
     { id: 6, type: 'image', src: 'https://superiorcads.edu.ar/imgd/planificacion-curso-webinar-futbol-infantiles-juveniles-2-146999.jpg', alt: 'Niños escuchando a su entrenador de fútbol' },
+    { id: 7, type: 'image', src: 'https://lahuelladeportes.com.ar/wp-content/uploads/2020/07/potrero-800x445.jpg', alt: 'Niños jugando al fútbol en un potrero de tierra' },
+    { id: 8, type: 'image', src: 'https://d3b5jqy5xuub7g.cloudfront.net/wp-content/uploads/2021/12/Potrero-f%C3%BAtbol-min-1024x576.png', alt: 'Vista aérea de un partido de fútbol en un potrero' },
 ];
 
 const Gallery: React.FC = () => {
