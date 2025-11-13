@@ -44,7 +44,7 @@ const Game: React.FC = () => {
                            </Step>
                         </div>
                         <div className={`mt-10 transition-all duration-1000 delay-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-                          <a href="https://ai.studio/apps/drive/1hO_7cHQdJtGpCdNBKQVndm5ZQ0kwn7gg" target="_blank" rel="noopener noreferrer" className="inline-block bg-emerald-500 text-white font-bold py-4 px-10 rounded-md hover:bg-emerald-600 transition-all duration-300 transform hover:scale-105 shadow-lg text-lg">
+                          <a href="https://web-institucional-zyqe.vercel.app/" target="_blank" rel="noopener noreferrer" className="inline-block bg-emerald-500 text-white font-bold py-4 px-10 rounded-md hover:bg-emerald-600 transition-all duration-300 transform hover:scale-105 shadow-lg text-lg">
                             ACCEDER A LA APP Y JUGÁ AHORA
                           </a>
                         </div>
