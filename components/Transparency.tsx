@@ -61,8 +61,8 @@ const Transparency: React.FC = () => {
     return (
         <section id="team" className="bg-gray-100 py-20 md:py-32" ref={ref}>
             <div className="container mx-auto px-6">
-                <h2 className={`font-montserrat text-center text-4xl md:text-5xl font-extrabold uppercase text-slate-800 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-                    Transparencia y Autoridades
+                <h2 className={`font-montserrat text-center md:text-left text-4xl md:text-5xl font-extrabold uppercase text-slate-800 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+                    Transparencia y Nuestro Equipo
                 </h2>
                 <div className="mt-16 grid md:grid-cols-2 gap-16 items-center">
                     <div className={`flex flex-col items-center md:items-start text-center md:text-left transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>

@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 import { CloseIcon } from './icons';

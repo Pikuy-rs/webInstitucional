@@ -30,10 +30,10 @@ const Header: React.FC = () => {
                         <a href="#mission" className="text-white hover:text-emerald-400 transition-colors duration-300 font-semibold tracking-wider">MISIÓN</a>
                         <a href="#game" className="text-white hover:text-emerald-400 transition-colors duration-300 font-semibold tracking-wider">EL JUEGO</a>
                         <a href="#team" className="text-white hover:text-emerald-400 transition-colors duration-300 font-semibold tracking-wider">EQUIPO</a>
-                        <a href="#impacto" className="text-white hover:text-emerald-400 transition-colors duration-300 font-semibold tracking-wider">IMPACTO</a>
+                        <a href="#contact" className="text-white hover:text-emerald-400 transition-colors duration-300 font-semibold tracking-wider">CONTACTO</a>
                     </div>
-                    <a href="#app" className="bg-emerald-500 text-white font-bold py-2 px-6 rounded-md hover:bg-emerald-600 transition-all duration-300 transform hover:scale-105 shadow-md">
-                        ABRIR APP
+                    <a href="https://ai.studio/apps/drive/1hO_7cHQdJtGpCdNBKQVndm5ZQ0kwn7gg" target="_blank" rel="noopener noreferrer" className="bg-emerald-500 text-white font-bold py-2 px-6 rounded-md hover:bg-emerald-600 transition-all duration-300 transform hover:scale-105 shadow-md">
+                        TUCUGOL
                     </a>
                 </nav>
             </div>

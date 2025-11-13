@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Mission from './components/Mission';
+import Game from './components/Game';
 import Transparency from './components/Transparency';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
@@ -14,8 +15,9 @@ const App: React.FC = () => {
       <main>
         <Hero />
         <Mission />
-        <Transparency />
+        <Game />
         <Gallery />
+        <Transparency />
         <Contact />
       </main>
     </div>

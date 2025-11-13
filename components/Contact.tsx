@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
     };
 
     return (
-        <footer id="app" className="bg-slate-900 text-white pt-20 md:pt-24" ref={ref}>
+        <footer id="contact" className="bg-slate-900 text-white pt-20 md:pt-24" ref={ref}>
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-2 gap-12">
                     <div className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
@@ -75,9 +75,9 @@ const Contact: React.FC = () => {
                             </button>
                         </form>
                          <div className="mt-8 flex space-x-4">
-                            <a href="#" className="text-slate-400 hover:text-emerald-500 transition-colors"><FacebookIcon className="w-6 h-6" /></a>
-                            <a href="#" className="text-slate-400 hover:text-emerald-500 transition-colors"><InstagramIcon className="w-6 h-6" /></a>
-                            <a href="#" className="text-slate-400 hover:text-emerald-500 transition-colors"><TwitterIcon className="w-6 h-6" /></a>
+                            <a href="#" className="text-slate-300 hover:text-emerald-400 transition-colors"><FacebookIcon className="w-6 h-6" /></a>
+                            <a href="#" className="text-slate-300 hover:text-emerald-400 transition-colors"><InstagramIcon className="w-6 h-6" /></a>
+                            <a href="#" className="text-slate-300 hover:text-emerald-400 transition-colors"><TwitterIcon className="w-6 h-6" /></a>
                         </div>
                     </div>
                 </div>
